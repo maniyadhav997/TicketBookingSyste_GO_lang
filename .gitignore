@@ -1,0 +1,7 @@
+.env
+database/app.db
+ticket-system
+*.exe
+*.out
+*.test
+
