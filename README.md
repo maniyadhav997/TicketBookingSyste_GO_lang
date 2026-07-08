@@ -1,4 +1,4 @@
-# Ticket System Backend (Go + Gin + SQLite + JWT)
+# Ticket System Backend (Go + SQLite + JWT)
 
 Beginner-friendly ticket system backend.
 
@@ -93,6 +93,5 @@ docker run -p 8080:8080 -e JWT_SECRET="your_secret_here" ticket-system
 
 Deployment notes:
 - Set `JWT_SECRET` as an environment variable on Render/Railway.
-- The SQLite file is stored in the container at `database/app.db`. For production durability,
-  you can add volume storage, but the assignment keeps it simple.
+- The SQLite file is stored in the container at `database/app.db`.
 
