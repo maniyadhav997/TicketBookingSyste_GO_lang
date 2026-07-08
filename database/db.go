@@ -14,7 +14,7 @@ var DB *sql.DB
 // InitDB opens the SQLite database file and creates the tables if they do not exist.
 func InitDB() error {
 	// Open will create the file if it does not exist.
-	db, err := sql.Open("sqlite", "tickets.db")
+	db, err := sql.Open("sqlite", "./database/app.db")
 	if err != nil {
 		return err
 	}
